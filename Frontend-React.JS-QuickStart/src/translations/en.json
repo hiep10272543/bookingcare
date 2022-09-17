@@ -1,0 +1,120 @@
+{
+    "home-header": {
+        "speciality": "Medical speciality",
+        "searchdoctor": "Find a doctor by speciality",
+        "health-facility": "Health facilities",
+        "selecte-room": "Choose hospital clinic",
+        "doctors": "Doctors",
+        "selecte-doctor": "Choose a good doctor",
+        "fee": "checkup package",
+        "check-health": "General health check",
+        "support": "Suport",
+        "welcome": "Welcome"
+    },
+    "banner": {
+        "title1": "MEDICAL PLATFORM",
+        "title2": "COMPREHENSIV HEALTH CARE",
+        "child1": "specialized examination",
+        "child2": "Remote examination",
+        "child3": "General examination",
+        "child4": "Medical test",
+        "child5": "Mental health",
+        "child6": "Dental examination"
+    },
+    "menu": {
+        "system": {
+            "header": "System",
+            "system-administrator": {
+                "header": "System Administrator",
+                "user-manage": "User manage",
+                "user-redux": "User redux manage",
+                "register-package-group-or-account": "Register service package for group/account"
+            },
+            "system-parameter": {
+                "header": "System-parameter"
+            }
+        },
+        "admin": {
+            "manage-user": "User manage",
+            "manage-admin": "Admin manage",
+            "manage-doctor": "Doctor manage",
+            "manage-clinic": "Clinic manage",
+            "manage-handbook": "Handbook manage",
+            "manage-specialty": "specialty manage",
+            "clinic": "Clinic",
+            "handbook": "Handbook",
+            "crud-redux": "User manage advanced",
+            "specialty": "specialty"
+        },
+        "doctor": {
+            "manage-schedule": "Manage Schedule",
+            "manage-patient": "Manage Doctor's Patient",
+            "tilte": "Manage"
+        }
+    },
+    "manage-user": {
+        "add": "Add a user",
+        "email": "Email",
+        "password": "Password",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phonenumber": "Phonenumber",
+        "addres": "Addres",
+        "gender": "Gender",
+        "positionID": "Position",
+        "roleId": "Role",
+        "image": "Avatar",
+        "save": "Save",
+        "edit": "Save edit"
+    },
+    "homepage": {
+        "outstanding-doctor": "Outstanding doctor week by week",
+        "search": "SEARCH",
+        "specialty": "popular specialties",
+        "moreInfor": "see more"
+    },
+    "manage-schedule": {
+        "title": "Manage the doctor's examination plan",
+        "chose-doctor": "Doctor",
+        "chose-date": "Chose a doctor",
+        "no-appointment": "No doctor's appointment today, please choose another time"
+    },
+    "admin": {
+        "manage-doctor": {
+            "title": "Create more doctor information",
+            "select-doctor": "Choose a doctor",
+            "intro": "Introduction information",
+            "save": "Save",
+            "price": "price",
+            "payment": "Payment",
+            "province": "Province",
+            "nameClinic": "Clinic's nacme",
+            "address": "Clinic's address",
+            "notes": "Note",
+            "specialty": "Specialty",
+            "clinic": "Select clinic"
+        }
+    },
+    "patient": {
+        "extra-doctor-infor": {
+            "clinic": "The clinic:",
+            "text-address": "Clinic address",
+            "tilte-price": "Price of medical examination",
+            "payment": "Patients can pay by cash",
+            "hide-price": "Hide price ",
+            "show-price": "Show price"
+        },
+        "booking-modal": {
+            "title": "Information to book a medical appointment",
+            "fullName": "Fullname",
+            "phonenumber": "Phonenumber",
+            "email": "Email",
+            "address": "Addres",
+            "reason": "Reasons  for medical examination",
+            "birthday": "Date of birth",
+            "gender": "Gender",
+            "btnConfirm": "Confirm",
+            "btnCancel": "Cancel"
+        }
+    }
+}

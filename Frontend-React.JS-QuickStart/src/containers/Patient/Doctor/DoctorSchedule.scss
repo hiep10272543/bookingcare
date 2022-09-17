@@ -1,0 +1,26 @@
+.all-schedule {
+    display: flex;
+
+    .fa-calendar-alt {
+        padding-top: 9px;
+        padding: 9px 0 0 10px;
+    }
+
+    .css-1hb7zxy-IndicatorsContainer {
+        height: 1px;
+    }
+}
+
+.all-available-time {
+    .time-content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: center;
+
+        button {
+            min-width: 106px;
+        }
+
+    }
+}

@@ -1,0 +1,180 @@
+.section-content {
+    position: relative;
+    min-height: 300px;
+    width: 100%;
+    padding: 0 25px;
+
+    .tracking-container {
+        margin: 0;
+        padding: 0 25px;
+    }
+
+    .section-title {
+        padding: 0 25px;
+        height: 80px;
+        text-align: start;
+        line-height: 80px;
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+
+        span {
+            text-align: center;
+            font-size: 12px;
+            height: 30px;
+            line-height: 30px;
+            margin: 25px 0;
+            font-weight: 300;
+            color: rgba(47, 192, 215, 0.8);
+
+            &:hover {
+                color: #fff;
+                background: #f7d800;
+                cursor: pointer;
+            }
+
+
+        }
+
+    }
+
+    .img-customize {
+        height: 180px;
+        margin: 0 5px;
+
+
+        img {
+            width: 100%;
+            height: 90%;
+        }
+
+        div {
+            height: 10%;
+        }
+
+        &:hover {
+            color: rgba(47, 192, 215, 0.8);
+            cursor: pointer;
+
+        }
+
+
+    }
+
+    .img-outStandingDoctor {
+        height: 220px;
+        margin: 0 5px;
+        border: 1px solid #eee;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+        img {
+            margin: 5px 0;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+
+
+
+        }
+
+        div {
+            flex-grow: 1;
+            width: 60%;
+            text-align: center;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+        }
+
+        &:hover div {
+            color: rgba(47, 192, 215, 0.8);
+        }
+    }
+
+    .button-arrow-slider {
+        padding: 0 15px;
+        position: absolute;
+        justify-content: space-between;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        display: flex;
+        z-index: 10;
+
+        button {
+            width: 30px;
+            height: 60px;
+            border: none;
+            color: #ccc;
+            background: #ffff;
+            border: 1px solid #ccc;
+            opacity: 0.5;
+
+            &:hover {
+                opacity: 1;
+
+            }
+        }
+    }
+}
+
+.section-medicalFacility {
+    background: #f5f5f5;
+}
+
+.section-HandBook {
+    background: #f5f5f5;
+
+}
+
+.section-about {
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+    min-height: 500px;
+    padding: 0 15px;
+    width: 100%;
+
+
+    .section-about-header {
+        font-size: 20px;
+        padding: 20px 10px;
+        font-weight: bold;
+
+    }
+
+    .section-about-content {
+        display: flex;
+        flex-wrap: wrap;
+
+        .section-about-content-left {
+            text-align: center;
+            flex: 1;
+            margin: 0 auto;
+        }
+
+        .section-content-right {
+            padding: 0 15px;
+            flex: 1;
+            text-align: justify;
+            max-height: 300px;
+
+            div {
+
+                max-height: 250px;
+                min-width: 350px;
+
+            }
+
+
+        }
+    }
+
+
+}

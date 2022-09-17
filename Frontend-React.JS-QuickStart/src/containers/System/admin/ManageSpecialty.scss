@@ -1,0 +1,25 @@
+.manage-specialty-container {
+    .ms-title {
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 15px 0;
+    }
+
+    .btn-add-new-specialty {}
+
+    .all-specialty {}
+
+    .preview-image {
+        height: 100px;
+        background: center center no-repeat;
+        background-size: contain;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+
+
+    }
+}

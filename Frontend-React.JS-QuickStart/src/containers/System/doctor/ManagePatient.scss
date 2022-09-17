@@ -1,0 +1,18 @@
+div._loading_overlay_wrapper {
+    position: unset;
+
+    ._loading_overlay_overlay.css-df17o1 {
+        z-index: 8000;
+    }
+}
+
+.manage-patient-container {
+    .m-p-title {
+        text-transform: uppercase;
+        margin: 15px 0;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .manage-patient-body {}
+}
